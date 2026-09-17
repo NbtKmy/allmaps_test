@@ -1,0 +1,35 @@
+{
+  "name": "allmaps_test",
+  "version": "1.0.0",
+  "description": "testing for the allmaps plugin ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NbtKmy/allmaps_test.git"
+  },
+  "keywords": [
+    "allmaps"
+  ],
+  "author": "NbtKmy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NbtKmy/allmaps_test/issues"
+  },
+  "homepage": "https://github.com/NbtKmy/allmaps_test#readme",
+  "dependencies": {
+    "@allmaps/maplibre": "^1.0.0-beta.43",
+    "maplibre-gl": "^6.10.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  },
+  "overrides": {
+    "zod": "4.4.3"
+  }
+}
